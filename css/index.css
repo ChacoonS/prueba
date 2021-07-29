@@ -1,0 +1,55 @@
+.banner{
+    min-height: 1080px;
+    padding-top: 150px;
+    background-image:url(../img/Banner2.jpg);
+    background-size: cover;
+}
+
+.leyenda{
+    text-align: center;
+    font-size: 250%;
+    color:aliceblue;
+}
+
+.boton_b{
+    display: block;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 20px;
+   background: rgb(175,179,188);
+    background: linear-gradient(90deg, rgba(175,179,188,1) 24%, rgba(177,164,158,1) 45%, rgba(52,49,56,0.9699230033810399) 100%);
+    transition: 0.3;
+}
+
+.boton_b:hover{
+    width:120px; 
+
+    transition: 0.3;
+
+    background: rgb(175,179,188);
+background: linear-gradient(90deg, rgba(175,179,188,1) 24%, rgba(175,175,205,1) 45%, rgba(196,199,204,1) 100%);
+}
+
+@media only screen and (max-width : 376px){
+    :root {
+        --phone-laterh1: 2rem;
+        --phone-laterh2: 1.5rem;
+        --phone-laterh3: 1.3rem;
+        --phone-paraf: 1rem;
+      }
+    
+    .leyenda{
+        font-size: var(--phone-laterh1);}
+
+        header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+}

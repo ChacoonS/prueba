@@ -1,0 +1,186 @@
+section{
+    margin: 30px ;
+}
+
+.tab1{
+    font-size: 40px;
+    font-family:serif;
+     text-align:center;
+    color: #0D2F55;
+}
+
+.tex1{
+    font-size: 25px;
+    text-align: center;
+    color: #3B4F66;
+}
+
+.Tit2{
+    color:#3B576C;
+    font-size: 30px;
+    margin: 20px;
+    font-family: serif;
+}
+
+.titulo{
+    background-color: 596B82;
+    text-align: center;
+    color:aliceblue;
+    font-size: 35px;
+} 
+
+td{
+    font-size: 20px;
+    text-align: center;
+    padding: 7px; 
+}  
+
+table{
+    margin: 20px auto;
+}
+li{
+    color:#596B82;
+}
+ul{
+    font-size: 25px;
+}
+     
+
+.tab1{
+    font-size: 40px;
+    font-family:serif;
+     text-align:center;
+    color: #0D2F55;
+    
+}
+
+.tex1{
+    font-size: 25px;
+    text-align: center;
+    color: #3B4F66;
+}
+
+.sub{
+    background-color: #B2C5C9;
+    color:#172A51;
+    font-size: 25px;
+    margin: auto 20px ;
+}
+ 
+.tem{
+    font-size: 25px;
+    margin: 10px;
+    color: black
+     
+}
+
+.listado{
+    font-size: 20px;
+    color:black;
+    margin:10px;
+        
+    }
+
+hr{
+    margin: 20px;
+}
+
+table{
+    
+    margin: 20px auto;
+    
+}
+
+.nomt{
+    color:#ffff;
+    font-size: 28;
+    background: linear-gradient(180deg, rgba(126,137,147,1) 8%, rgba(84,102,121,1) 78%);
+}
+
+.imgej{
+ 
+    height: 75px;
+}
+
+.ejemploChase{
+    font-family: cursive;
+}
+
+.ejemta{
+    font-size: 15px;
+}
+
+.ejemc{
+    color:darkorange;
+}
+
+.ejema{
+    text-align: right;
+
+}
+
+.fond{
+    background-color: darkslategray;
+}
+
+.imgf{
+    background-image: url(../img/Banner3.jpg);
+    background-size: cover;
+    height:100px ;
+}
+
+footer{
+    background-color:rgb(75, 96, 117);
+    height: 60px;
+    color:#ffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width : 376px){
+    :root {
+        --phone-laterh1: 2rem;
+        --phone-laterh2: 1.5rem;
+        --phone-laterh3: 1.3rem;
+        --phone-paraf: 1rem;
+      }
+    
+    .leyenda{
+        font-size: var(--phone-laterh1);}
+
+        header{
+            display: inline-flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        td{
+            font-size: var(--phone-paraf);}
+
+        
+}
+
+@media only screen and (max-width: 375px) {
+    table {
+        width:100%;
+    }
+   
+    tr:nth-of-type(2n) {
+        background-color: inherit;
+    }
+    tr td:first-child {
+        background: #f0f0f0;
+        font-weight:bold;
+        font-size:1.3em;
+    }
+    tbody td {
+        display: block;
+        text-align:center;
+    }
+    tbody td:before {
+        content: attr(data-th);
+        display: block;
+        text-align:center;
+    }
+}
